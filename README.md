@@ -1,6 +1,6 @@
 # encode-decode
 
-The aim of this repository is   encode or decode  any text 
+The aim of this repository is   encode or decode  any text  in python
 
 With out any problems 
 
