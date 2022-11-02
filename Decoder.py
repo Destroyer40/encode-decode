@@ -1,5 +1,5 @@
-
-from loading import loading
+  
+from loading import loading1
 
 from ast import Not
 from encodings import utf_8
@@ -26,7 +26,7 @@ def Decrypt():
     Decrypt=bytes( ((decrm[:lenth:])),'utf8')
     decrypt_string = Fernet_key.decrypt(Decrypt).decode()
     if dec_message1:
-        loading()
+        loading1()
     os.system("clear")
     os.system("color 02")
     print("\n Original string\n  :------> ",decrypt_string," <------|")
@@ -34,5 +34,5 @@ def Decrypt():
     today = datetime.datetime.now()
     f.write(" Created ~~]:==------->  "+str(today) +"\n\nEncrypted string  :------>  "+str(dec_message)+"\nEncrypted KEY (main)     :------> "+str(key_0)+"\nDecrypted string     :------> "+str(decrypt_string)+"\n\n\n\n")
     f.close()
-    print("\n saved in DESTROYER_Decode ")
+    print("\n Decode text saved in DESTROYER_Decode.txt  ")
 

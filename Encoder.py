@@ -20,7 +20,7 @@ def Encrypt ():
     print("\n Enter strong key , suggest key ----> ",key_req )
     enc_message_1=input("  :------> ")
     enc ="!@$#$*#$*_)*#$()&$+_NJ&*@&i98324^$@!(*#!_)#_+!*#!$*DesTRoYerIG%@64!$#|\;$@$"
-    enc_DB=enc+enc_message_1
+    enc_DB=enc+enc_message_1 
 
     encMessage = Fernet_key.encrypt(enc_message.encode())
     encMessage1 = Fernet_key.encrypt(enc_message_1.encode())
@@ -48,10 +48,10 @@ def Encrypt ():
     print("\n Auto generated KEY\n  :------>\n\n",encMessage1,"  ")
     print("\n Encrypted KEY (main)\n  :------>\n\n ",key,"  ")
     print("\n Encrypt Number  :------> ",(len(encMessage)))
-    print("\n Encrypted string lenth  :------> ",(len(Encrypt_String)-1))
+    print("\n Encrypted string length  :------> ",(len(Encrypt_String)-1))
     f = open("DESTROYER_Encode.txt", "a")
     today = datetime.datetime.now()
-    f.write(" Created ~~]:==------->  "+str(today) +"\n\nEncrypted string  :------>  "+str(Encrypt_String)+"\nAuto generated KEY  :------> "+str(encMessage1)+"\nEncrypted KEY (main)     :------> "+str(key)+"\nEncrypt Number    :------> "+str(len(encMessage))+"\nEncrypted str lenth:-----> "+str(len(Encrypt_String))+"\n\n\n\n")
+    f.write(" Created ~~]:==------->  "+str(today) +"\n\nEncrypted string  :------>  "+str(Encrypt_String)+"\nAuto generated KEY  :------> "+str(encMessage1)+"\nEncrypted KEY (main)     :------> "+str(key)+"\nEncrypt Number    :------> "+str(len(encMessage))+"\nEncrypted str length:-----> "+str(len(Encrypt_String))+"\n\n\n\n")
     f.close()
-    print("\n saved in DESTROYER_Encode")
+    print("\n Encode text saved in DESTROYER_Encode.txt")
 

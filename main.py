@@ -1,5 +1,7 @@
 from Encoder import Encrypt
+import os
 from Decoder import Decrypt
+
 if __name__ == "__main__":
 
     
