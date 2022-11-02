@@ -1,8 +1,31 @@
 # encode-decode
 
-The aim of this repository is   encode or decode  any message  in python.
 
-just run main.py.
+
+What is encode-decode?
+-------------
+
+This is high Encoding API for secure your personal information if you send your personal data("mobile_number,account_number, any personal message") to  a person using internet  in plain text it not safe , allowing encoding and decoding of textual data using kye in Python.
+
+
+
+
+
+
+Quick start
+-----------
+
+run setup.py to install requirements files.
+you can type in cmd- 
+
+    python  setup.py
+
+
+
+Now you can run the  program like this:
+
+    python main.py
+
 
 
 
